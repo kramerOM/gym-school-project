@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/home.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <h1>ANYTIME FITNESS</h1>
+
+      <a
+        href="login"
+        exact="true"
+        activeclassname="active"
+        class="login-link"
+      >
+        Login/SignUp
+      </a>
+
+      <a
+        href="staff"
+        exact="true"
+        activeclassname="active"
+        class="staff-link"
+      >
+        Staff
+      </a>
+
+      <a
+        href="aboutus"
+        exact="true"
+        activeclassname="active"
+        class="contact-link"
+      >
+        About Us
+      </a>
+
+      <a
+        href="contact"
+        exact="true"
+        activeclassname="active"
+        class="contact-link"
+      >
+        Contact Us
+      </a>
+      <a
+        href="subscription"
+        exact="true"
+        activeclassname="active"
+        class="sub-link"
+      >
+        Services
+      </a>
+
+      <a href="#" exact="true" activeclassname="active" to="/"> Home </a>
+    </div>
+    <div class="container home-page">
+        <div class="text-div">
+          <h1 class="h1">
+            <span id="letterH" class="text-animate">H</span>
+            <span id="letterI" class="text-animate _12">i</span>
+            <br />
+            <span id="letterT" class="text-animate _13">T</span>
+            <span id="letterH" class="text-animate _14">h</span>
+            <span id="letterE" class="text-animate _14">e</span>
+            <span id="letterR" class="text-animate _14">r</span>
+            <span id="letterE" class="text-animate _14">e</span>
+          
+          </h1>
+          <h2>Body Bulding / Losing weight / Fitness</h2>
+          <a href="/contact" class="flat-button">CONTACT US</a>
+        </div>
+      </div>
+    
+      <div class="loader"> <!-- Loader styles go here --> </div>
+      <div class='prices'>
+        <!-- Content for the prices section goes here -->
+      </div>
+    
+      <script>
+        // Add your JavaScript code here
+        document.addEventListener('DOMContentLoaded', function () {
+          setTimeout(function () {
+            document.getElementById('letterH').classList.add('text-animate-hover');
+            // Add similar lines for other letters if needed
+          }, 4000);
+        });
+      </script>
+  </body>
+</html>

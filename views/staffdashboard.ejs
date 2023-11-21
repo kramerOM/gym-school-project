@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Gym</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 1em;
+      margin: 0 1em;
+    }
+
+    main {
+      padding: 2em;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+
+    th, td {
+      padding: 1em;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #555;
+      color: #fff;
+    }
+
+    .add-button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Admin Dashboard - Gym</h1>
+  </header>
+
+  <nav>
+    <a href="#">Dashboard</a>
+    <a href="#">Members</a>
+    <a href="#">Classes</a>
+    <a href="#">Reports</a>
+    <a href="#">Settings</a>
+  </nav>
+
+  <main>
+    <h2>Recent Members</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+          <td>john.doe@example.com</td>
+          
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jane Smith</td>
+          <td>jane.smith@example.com</td>
+          
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+
+    <a href="/login" class="add-button">Add Member</a>
+  </main>
+
+</body>
+</html>

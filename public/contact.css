@@ -1,0 +1,85 @@
+.contact-page{
+    position: absolute;
+    width: 30%;
+    height: 100vh;
+    border-radius: 30px;
+    left: 25%;
+    padding: 50px;
+    font-size: 10px;
+    
+    
+}
+h1{
+    color: black;
+    font-family: 10px;
+  }
+.text-zone{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+  
+   
+    }
+ul {
+        padding: 0;
+        margin: 0;
+    
+    }
+    
+li.half {
+          width: 49%;
+          margin-left: 2%;
+          float: left;
+          clear: none;
+    
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+  
+    textarea {
+      width: 100%;
+      border: 0;
+      background: #115173;
+      height: 50px;
+      font-size: 16px;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      min-height: 150px;
+    }
+  
+    .flat-button {
+      color: #ffd700;
+      font-size: 11px;
+      background-color: black;
+      letter-spacing: 3px;
+      text-decoration: none;
+      padding: 8px 10px;
+      border: 1px solid #ffd700;
+      float: left;
+      border-radius: 4px;
+      text-transform: uppercase;
+      float: right;
+      text-align: center;
+      margin-right: 10px;
+    }
+  
+  li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 10px;
+    opacity: 0;
+    overflow: hidden;
+    display: block;
+    clear: both;
+    position: relative;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+  }
