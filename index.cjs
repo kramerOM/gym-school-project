@@ -8,8 +8,6 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 
 //importation of models
-const MemberModel = require('./models/Member');
-
 const Subscription = require('./models/subscriptionmodel');
 
 //importation of routes
@@ -48,8 +46,8 @@ server.get('/', (req, res) => {
   res.render('login');
 });
 
-server.get('/home', isAuthenticated, (req, res) => {
-  res.send('home')
+server.get('/home', /*isAuthenticated,*/ (req, res) => {
+  res.render('home')
  // res.status(200).json({ message: `Welcome, ${req.session.user.email}!` });
 });
 server.get('/Login', (req, res) => {
