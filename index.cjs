@@ -66,6 +66,10 @@ server.get(`/staffdashboard`,  (req, res) => {
   res.render('staffdashboard')
 });
 
+server.get(`/subscription`, (req, res) => {
+  res.render(`subscription`)
+})
+
 server.post('/logout', isAuthenticated, (req, res) => {
   // Destroy the session to log out the user
   req.session.destroy((err) => {
